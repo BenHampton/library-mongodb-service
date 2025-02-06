@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: nosql-mongo
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/my_library
+#      database: my_library
+#      host: localhost
+#      port: 27017
+mongock:
+  migration-scan-package: com.nosql.migration
